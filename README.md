@@ -1,4 +1,4 @@
-# DCQ-GNN: Dual-Channel Quadratic Graph Neural Network
+# DCQ-GNN: ConvexConcave Quadratic Spectral Filtering for Graph Neural Networks
 
 A PyTorch implementation of DCQ-GNN, a graph neural network that uses second-order (quadratic) spectral filters with learned convex/concave curvature control and node-adaptive gated fusion.
 
