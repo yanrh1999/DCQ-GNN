@@ -1,6 +1,6 @@
 # DCQ-GNN: ConvexConcave Quadratic Spectral Filtering for Graph Neural Networks
 
-A PyTorch implementation of DCQ-GNN, a graph neural network that uses second-order (quadratic) spectral filters with learned convex/concave curvature control and node-adaptive gated fusion.
+A PyTorch implementation of [DCQ-GNN](https://arxiv.org/abs/2606.24956), a graph neural network that uses second-order (quadratic) spectral filters with learned convex/concave curvature control and node-adaptive gated fusion.
 
 ## Requirements
 
@@ -103,3 +103,14 @@ python main.py Cora -m train --config_file Cora.yaml
 ## Citation
 
 If you use this code, please cite the DCQ-GNN paper.
+```bib
+@misc{yan2026convexconcavequadraticspectralfiltering,
+      title={Convex--Concave Quadratic Spectral Filtering for Graph Neural Networks}, 
+      author={Ranhui Yan and Jia Cai and Mengzhu Chen and Haodong Yang},
+      year={2026},
+      eprint={2606.24956},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.24956}, 
+}
+```
